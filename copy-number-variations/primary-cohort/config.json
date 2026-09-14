@@ -1,0 +1,29 @@
+{
+  "input_dir": "primary-cohort/cnv_inference/infercnv_input/combined",
+  "gene_order_file": "files/gene_order_file.tsv",
+  "output_root": "primary-cohort/cnv_inference/infercnv_runs",
+  "infercnv": {
+    "cutoff": 0.1,
+    "cluster_by_groups": true,
+    "denoise": true,
+    "num_threads": 8,
+    "ref_groups": []
+  },
+  "samples": {
+    "combined_stroma_ref": {
+      "HMM": true,
+      "ref_groups": ["Other"]
+    }
+  },
+  "slurm": {
+    "account": "project_xxxxxxx",
+    "partition": "small",
+    "time": "16:00:00",
+    "cpus_per_task": 8,
+    "mem": "80G",
+    "r_module": "r-env",
+    "job_name": "infercnv",
+    "array_max_concurrent": 4,
+    "project_r_lib": ""
+  }
+}

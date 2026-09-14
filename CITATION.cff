@@ -1,0 +1,54 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the associated manuscript."
+title: "Spatial transcriptomics reveals interferon pathway enrichment in early relapsing serous carcinoma"
+authors:
+    - family-names: Niemeyer
+      given-names: Franziska
+      orcid: https://orcid.org/0009-0005-3214-9322
+    - family-names: Aho
+      given-names: Niina
+      orcid: https://orcid.org/0009-0007-3233-4522
+    - family-names: Hänninen
+      given-names: Satu
+    - family-names: Youssef
+      given-names: Omar
+      orcid: https://orcid.org/0000-0002-1827-9156
+    - family-names: Carpen
+      given-names: Olli
+      orcid: https://orcid.org/0000-0002-7847-5706
+    - family-names: Erickson
+      given-names: Andrew
+      orcid: https://orcid.org/0000-0002-4850-4086
+    - family-names: Laury
+      given-names: Anna Ray
+      orcid: https://orcid.org/0000-0002-6206-0872
+repository-code: "https://github.com/Franzili/spatial-hgsc-interferon"
+license: MIT
+preferred-citation:
+  type: article
+  title: "Spatial transcriptomics reveals interferon pathway enrichment in early relapsing serous carcinoma"
+  authors:
+    - family-names: Niemeyer
+      given-names: Franziska
+      orcid: https://orcid.org/0009-0005-3214-9322
+    - family-names: Aho
+      given-names: Niina
+      orcid: https://orcid.org/0009-0007-3233-4522
+    - family-names: Hänninen
+      given-names: Satu
+    - family-names: Youssef
+      given-names: Omar
+      orcid: https://orcid.org/0000-0002-1827-9156
+    - family-names: Carpen
+      given-names: Olli
+      orcid: https://orcid.org/0000-0002-7847-5706
+    - family-names: Erickson
+      given-names: Andrew
+      orcid: https://orcid.org/0000-0002-4850-4086
+    - family-names: Laury
+      given-names: Anna Ray
+      orcid: https://orcid.org/0000-0002-6206-0872
+
+  year: 2026
+  # journal: "TODO"
+  # doi: "TODO"
